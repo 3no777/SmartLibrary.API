@@ -4,7 +4,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// Lejon front-end Angular te lidhet me API
+// Lidhja  front-end Angular  dhe  API
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAngular", policy =>
